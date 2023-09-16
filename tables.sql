@@ -131,6 +131,7 @@ CREATE TABLE IF NOT EXISTS Stuff (
     middle_name TEXT NOT NULL,
     sex TEXT NOT NULL,
     email TEXT UNIQUE,
+    city TEXT NOT NULL, 
     born DATE NOT NULL,
     session_id INTEGER NOT NULL,
     hashed_password TEXT NOT NULL,
